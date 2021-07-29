@@ -75,8 +75,15 @@
     color: gold;
 }
 
+.faq-image img{
+    width: 80%;
+    height: 80%;
+}
 
-
+/* Double color text */
+.orange-text{
+    color: orangered;
+}
 
 
 
