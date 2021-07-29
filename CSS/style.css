@@ -85,34 +85,28 @@
     color: orangered;
 }
 
-
-
-
-.cart-logo{
-    width: 30px;
-}
-.peng_cover_img{
-    width: 400px;
-}
-
-.news-card-bie{
-    height: 450px;
-    background-color: #fceae8;
-    border-radius: 5%;
-}
-
-.peng_service img{
-    width: 100px;
-}
-.peng_service_box{
-    padding: 10px;
-    margin: 20px 0;
-    border-radius: 5%;
-    background-color:#fceae8 ;
-}
-.peng_service_cover_img{
-    margin-top: 20px;
-    width: 600px;
-    height: 350px;
+/* Override Form Control */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: wheat;
+    background-clip: padding-box;
+    border: 3px solid orangered;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+/* Footer logo customization */
+.footer-logo img{
+      width: 30%;
+      height:30%;
+}
