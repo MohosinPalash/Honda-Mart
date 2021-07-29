@@ -17,6 +17,15 @@
     background-color: orange;
     border-color: orange;
 }
+.btn-outline-success {
+    color: #E76F51;
+    border-color: #E76F51;
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #E76F51;
+    border-color: #E76F51;
+}
 
 /* Banner section customization */
 .bg-banner {
@@ -40,6 +49,37 @@
     filter: grayscale(100%);
 }
 
+/* News card customization */
+.news-card{
+    border: 0;
+    border-radius: 2%;
+}
+.news-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+/* User image customization */
+.user-card img{
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+.user-card a{
+    text-decoration: none;
+}
+
+/* Icon color customization */
+.far, .fas{
+    color: gold;
+}
+
+
+
+
+
+
 
 .cart-logo{
     width: 30px;
@@ -48,15 +88,12 @@
     width: 400px;
 }
 
-.w_img{
+.news-card-bie{
     height: 450px;
     background-color: #fceae8;
     border-radius: 5%;
 }
-.peng_card{
-    border: 0;
-    border-radius: 10%;
-}
+
 .peng_service img{
     width: 100px;
 }
