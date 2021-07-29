@@ -7,21 +7,21 @@
 }
 
 /* btn-success override */
-.btn-success {
+.btn-orange {
     color: #fff;
     background-color: #E76F51;
     border-color: #E76F51;
 }
-.btn-success:hover {
+.btn-orange:hover {
     color: #fff;
     background-color: orange;
     border-color: orange;
 }
-.btn-outline-success {
+.btn-outline-orange {
     color: #E76F51;
     border-color: #E76F51;
 }
-.btn-outline-success:hover{
+.btn-outline-orange:hover{
     color: #fff;
     background-color: #E76F51;
     border-color: #E76F51;
